@@ -16,6 +16,8 @@ function createWindow () {
     width: 1100,
     height: 700,
     backgroundColor: '#191622',
+    // frame: true,
+    // transparent: true,
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
