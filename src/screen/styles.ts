@@ -15,6 +15,7 @@ export const Content = styled.div`
   flex: 1;
 
   display: flex;
+  background: #f90 ;
 `
 
 export const CurrentConnection = styled.div`

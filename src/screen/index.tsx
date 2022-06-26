@@ -1,4 +1,4 @@
-import { Greetings } from '../components/Greetings'
+import { DragAndDropList } from '../components/DragableVerticalList'
 import Player from '../components/Player'
 
 import { Container, Content, CurrentConnection } from './styles'
@@ -13,6 +13,7 @@ const screen = () => {
           {/* <KeyContent /> */}
         </CurrentConnection>
       </Content>
+      <DragAndDropList />
       <Player />
     </Container>
   )
